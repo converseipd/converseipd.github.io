@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  height: 100px;
+  background-color: white;
+    display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid black;
+  z-index: 1000;
+}
+
+.nav h1 {
+  display: flex;
+  align-items: center;
+  display: inline;
+/*   outline: 1px solid blue; */
+  line-height: 1;
+  text-align: buttom;
+  padding-top: 8px;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.converse_logo {
+  width: 80px;
+}
+
+#menu {
+  position: fixed;
+  left: 10px;
+  
+  font-size: 50px;
+}
+
+#shop {
+  position: fixed;
+  right: 10px;  
+  font-size: 50px;
+}
+
+#shop span {
+
+  font-size: 50px;
+}
+
+.video_container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+  width: 950px;
+  height: 500px;
+}
